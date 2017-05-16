@@ -1,0 +1,10 @@
+public class Main {
+
+
+    public static void main(String[] args) {
+       // implementar 
+      // exemplo parecido
+    //https://www.caelum.com.br/apostila-java-orientacao-objetos/heranca-reescrita-e-polimorfismo/#7-5-um-outro-exemplo
+    }
+    
+}

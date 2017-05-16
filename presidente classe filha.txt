@@ -1,0 +1,39 @@
+
+public class Presidente extends Empregado{
+    
+//variaveis 
+    private double Vconta;
+    private double acoes;
+    private double salariobaseP;
+    
+//elementos da herança
+public Presidente(double Vconta, double acoes, double  salariobaseP,String nome, String codigo  ) {
+		
+                this.Vconta = Vconta;
+		this.acoes = acoes;
+		this.salariobaseP = salariobaseP;
+	} 
+    
+    public double getVconta() {
+        return Vconta;
+    }
+
+    public void setVcoonta(double Vconta) {
+        this.Vconta = Vconta;
+    }
+
+    public double getAcoes() {
+        return acoes;
+    }
+
+    public void setAcoes(double acoes) {
+        this.acoes = acoes;
+    }
+    //salario base do prediente + adicional (2000)
+    //declarar no main qual é o salario base
+    //declarar no main o valor da conta 
+    
+  public double getSalariobaseP() {
+    return this.salariobaseP + Vconta + 2000;
+  }
+}

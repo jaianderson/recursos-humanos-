@@ -1,0 +1,39 @@
+
+public class Gerente extends Empregado{
+        
+      //Variaveis 
+    private String area;
+    private double bonus;
+    private double salariobaseG;
+   
+      //Elementos da herança
+    public Gerente (String area, double bonus, double  salariobaseG, String nome, String codigo ) {
+		
+                this.area = area;
+		this.bonus = bonus;
+		this.salariobaseG = salariobaseG;
+    }
+       //GETS E SETS
+    public String getArea() {
+        return area;
+    }
+
+    public void setArea(String area) {
+        this.area = area;
+    }
+
+    public double getBonus() {
+        return bonus;
+    }
+
+    public void setBonus(double bonus) {
+        this.bonus = bonus;
+    }
+  //salario do gente + adicional (1000)
+  //declarar no mais o bonus do gerente 
+  //declara o main do salario base do gerente 
+    
+    public double getSalariobaseG() {
+    return this.salariobaseG + 1000 + bonus;
+  }
+}

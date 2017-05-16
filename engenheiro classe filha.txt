@@ -1,0 +1,39 @@
+
+public class Engenheiro extends Empregado{
+    
+        //variaveis 
+    private int CREA;
+    private String departamento;
+    private double salariobaseE;
+    
+    
+    //elementos da herança
+public Engenheiro(int CREA, String departamento, double  salariobaseE, String nome, String codigo) {
+		
+               this.CREA = CREA;
+		this.departamento = departamento;
+		this.salariobaseE = salariobaseE;
+	} 
+    
+    
+    public int getCREA() {
+        return CREA;
+    }
+
+    public void setCREA(int CREA) {
+        this.CREA = CREA;
+    }
+
+    public String getDepartamento() {
+        return departamento;
+    }
+
+    public void setDepartamento(String departamento) {
+        this.departamento = departamento;
+    }
+    //o salario base do engeneiro + 50%
+    //declarar no main o valor do salario base do engenheiro 
+      public double getSalariobaseE() {
+    return this.salariobaseE * 0.5;
+  }
+}
